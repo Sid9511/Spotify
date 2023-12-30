@@ -74,7 +74,7 @@ body {
 
 /* Libraries */
 .sidebar .library {
-  width: 90%;
+  width: 95%;
   background-color: #121212;
   padding: 0.5rem 0.5rem;
   border-radius: 10px;
@@ -200,6 +200,23 @@ body {
   overflow-y: auto; 
   min-height: 100vh;
   border-radius: 10px;
+}
+
+.sidebar .albums::-webkit-scrollbar {
+  width: 8px; 
+}
+
+.sidebar .albums::-webkit-scrollbar-thumb {
+  background-color:#252525;
+  border-radius: 8px; 
+}
+
+.sidebar .albums::-webkit-scrollbar-track {
+  background-color: #121212; 
+}
+
+.sidebar .albums::-webkit-scrollbar-corner {
+  background-color: #121212; 
 }
 
 .albums .album-list {
